@@ -4,7 +4,11 @@
 * Fastberry Template *
 ```
 
-## Dependencies Management
+## Dependencies Management (**PipEnv**)
+
+```sh
+git clone https://github.com/hlop3z/fastberry-template
+```
 
 ---
 
