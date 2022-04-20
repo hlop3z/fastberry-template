@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-"""API - Strawberry CRUD"""
+"""
+    CRUD - Init
+"""
 
 # Import your <cruds> here.
 from .demo import Demo

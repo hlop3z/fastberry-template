@@ -1,21 +1,24 @@
 # API Information
 VERSION: 0.1.0
 APP_NAME: Fastberry
-ADMIN_EMAIL: deadpool@example.com
+ADMIN_EMAIL: fastberry@example.com
 
-# Installed Apps
-INSTALLED_APPS:
-  - demo
-  
-# Development Apps
-DEVELOPMENT_APPS:
+# GraphQL (Output Folder)
+GENERATES: graphql
 
-# Querying
 QUERYING:
   items_per_page: 50
+  max_depth: 4
 
-# Allowed Hosts
 ALLOWED_HOSTS:
-  # 8080 (Front-End)
-  - http://localhost:8080
-  - http://127.0.0.1:8080
+
+INSTALLED_APPS:
+  - demo
+
+DEVELOPMENT_APPS:
+
+MIDDLEWARE:
+
+EXTENSIONS:
+
+PERMISSIONS:
